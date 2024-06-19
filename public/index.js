@@ -206,6 +206,8 @@ const connectRecvTransport = async () => {
         rtpParameters: params.rtpParameters,
       });
 
+      console.log(trakc);
+
       const { track } = consumer;
 
       remoteVideo.srcObject = new MediaStream([track]);
