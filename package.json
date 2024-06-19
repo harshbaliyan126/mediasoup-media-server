@@ -1,0 +1,25 @@
+{
+  "name": "mediasoup-media-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "watch": "watchify public/index.js -o public/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mediasoup": "^3.14.7",
+    "mediasoup-client": "^3.7.10",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "watchify": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
